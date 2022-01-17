@@ -1,0 +1,76 @@
+body  {
+    width: 100%;
+    height: 3000px;
+    margin: 0;
+      }
+
+nav   {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    width: 27%;
+    height: 100% ;
+    position: fixed;
+      } 
+    
+ ul   {
+    list-style: none;  
+      }
+
+ li a {
+    text-decoration: none;
+    color: white;
+      }
+.menubuttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-right: 40px;
+    font-size: 60px;
+             }
+iframe { 
+  width: 400px;
+  height: 280px;
+  border-radius: 5px;
+       }
+.googlemaps {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+       }
+nav .webmenu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-left: 16px;
+ 
+       }
+.divlogo {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+         }
+.divlogo img {
+  width: 90%;
+             }
+.icons {
+        width: 100%;
+       }
+header {
+         width: 73%;
+         height: 14%;
+         background: url("banniere.jpg");
+         margin-left: 27%;
+}
+header .fas {
+  font-size: 60px;
+  display: grid;
+  justify-content: end;
+  padding: 30px;
+}
+
+  
